@@ -281,7 +281,7 @@ int main() {
 	// int 포인터를 받는 함수. 함수를 수행하고 나면 값이 바뀌는 함수. A,B
 
 
-	cout << Factorial(14) << endl;
+	cout << Factorial(17) << endl;
 
 
 
