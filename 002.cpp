@@ -3,7 +3,6 @@
 #include<cmath>
 #include <stdlib.h>
 #include<time.h>
-using namespace std;
 
 //반복문의 수행시간이 n번 걸리고, 크리티컬하게 수행시간을 늘리게 된다. 
 // 
