@@ -127,8 +127,12 @@ void Eating(string name, int count) {
 int main() {
 	int n = 0;
 	cin >> n;
-	Shshi shshi;
+	
 	Name name;
+
+	for (int i = 0; i < 10; i++) {
+	}
+	
 	
 	
 
