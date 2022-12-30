@@ -71,6 +71,8 @@ void Swap2(int* PtrA, int* PtrB) {
 
 
 }
+
+
 // 카피본 생기고, PtrA의 값이 복제가 된다.
 // 만약 백만개를 전달하면 백만개가 전달이되므로, 포인터를 사용하면
 // 주소만 전달하므로 적게 용량을 사용한다. 
@@ -151,13 +153,16 @@ int Factorial(int N) {
 	if (N == 0) {
 		return 1;
 	}
-	return N * Factorial(N - 1);
+	else if(Cnt++ < 10){
+		cout << Cnt << endl;
+		return N * Factorial(N - 1);
+	}
 }
-// 12x11,10,9,8,7,6,5,4,3,2,1,
+// (12)x11,10,9,8,7,6,5,4,3,2,1
 
 
 int main() {
-
+	
 	//float Health;
 	//float Damage;
 	//float Armor = 10;
@@ -276,7 +281,7 @@ int main() {
 	// int 포인터를 받는 함수. 함수를 수행하고 나면 값이 바뀌는 함수. A,B
 
 
-cout << Factorial(7) << endl;
+	cout << Factorial(14) << endl;
 
 
 
